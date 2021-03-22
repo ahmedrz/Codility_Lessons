@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Codility_Lessons.PrimeAndCompositeNumbers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace Codility_Lessons
     {
         static void Main(string[] args)
         {
+            Flags flags = new Flags();
+            var result = flags.solution(new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 });
         }
     }
 }

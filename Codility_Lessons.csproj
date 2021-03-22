@@ -60,6 +60,7 @@
     <Compile Include="PrefixSums\MinAvgTwoSlice.cs" />
     <Compile Include="PrefixSums\PassingCars.cs" />
     <Compile Include="PrimeAndCompositeNumbers\CountFactors.cs" />
+    <Compile Include="PrimeAndCompositeNumbers\Flags.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting\Distinct.cs" />
