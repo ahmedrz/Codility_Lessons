@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codility_Lessons.PrimeAndCombositNumbers
+namespace Codility_Lessons.PrimeAndCompositeNumbers
 {
     public class CountFactors
     {
