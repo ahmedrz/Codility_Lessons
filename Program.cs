@@ -11,8 +11,12 @@ namespace Codility_Lessons
     {
         static void Main(string[] args)
         {
-            Flags flags = new Flags();
-            var result = flags.solution(new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 });
+            //Flags flags = new Flags();
+            //var result = flags.solution(new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 });
+
+            MinPerimeterRectangle per = new MinPerimeterRectangle();
+            var result = per.solution(30);
+            var result1 = per.solution(1);
         }
     }
 }
