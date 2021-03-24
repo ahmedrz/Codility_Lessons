@@ -38,7 +38,6 @@ namespace Codility_Lessons.PrimeAndCompositeNumbers
                 {
                     if (peaks[j] / groupSize == groupsHasPeaks)
                         groupsHasPeaks++;
-                    //if condition result will be groups
                 }
                 if (groupsHasPeaks == groups)
                     result = groups;
