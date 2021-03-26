@@ -1,4 +1,5 @@
 ﻿using Codility_Lessons.PrimeAndCompositeNumbers;
+using Codility_Lessons.SieveOfEratosthenes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,22 +19,25 @@ namespace Codility_Lessons
             //var result = per.solution(30);
             //var result1 = per.solution(1);
 
-            Peaks peaks = new Peaks();
-            peaks.solution(new int[]
-            {
-                 1,
-                 2,
-                 3,
-                 4,
-                 3,
-                 4,
-                 1,
-                 2,
-                 3,
-                 4,
-                 6,
-                 2
-            });
+            //Peaks peaks = new Peaks();
+            //peaks.solution(new int[]
+            //{
+            //     1,
+            //     2,
+            //     3,
+            //     4,
+            //     3,
+            //     4,
+            //     1,
+            //     2,
+            //     3,
+            //     4,
+            //     6,
+            //     2
+            //});
+            CountNonDivisible countNonDivisible = new CountNonDivisible();
+            countNonDivisible.solution(new int[] { 3, 1, 2, 3, 6 });
+
         }
     }
 }
