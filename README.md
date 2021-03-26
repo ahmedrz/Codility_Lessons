@@ -9,7 +9,8 @@ Maximum Slice Problem,
 Prefix Sums,
 Prime and Composite Numbers,
 Sorting,
-Stacks and Queues
+Stacks and Queues,
+Sieve of Eratosthenes
 
 
 Others will be added later.
