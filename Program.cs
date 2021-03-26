@@ -35,8 +35,10 @@ namespace Codility_Lessons
             //     6,
             //     2
             //});
-            CountNonDivisible countNonDivisible = new CountNonDivisible();
-            countNonDivisible.solution(new int[] { 3, 1, 2, 3, 6 });
+            //CountNonDivisible countNonDivisible = new CountNonDivisible();
+            //countNonDivisible.solution(new int[] { 3, 1, 2, 3, 6 });
+            CountSermiPrimes countSermiPrimes = new CountSermiPrimes();
+            countSermiPrimes.solution(26, new int[] { 1, 4, 16 }, new int[] { 26, 10, 20 });
 
         }
     }
