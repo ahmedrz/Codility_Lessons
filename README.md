@@ -10,7 +10,8 @@ Prefix Sums,
 Prime and Composite Numbers,
 Sorting,
 Stacks and Queues,
-Sieve of Eratosthenes
+Sieve of Eratosthenes,
+Euclidean Algorithm
 
 
 Others will be added later.
