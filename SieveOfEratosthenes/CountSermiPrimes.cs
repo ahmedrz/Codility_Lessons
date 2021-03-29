@@ -30,7 +30,7 @@
                     x = x / sieve[x, 0];
                 }
                 primeFactors++;
-                //primeFactors = 2 means it is sermiprime
+                //primeFactors = 2 means it is semiprime
                 if (primeFactors == 2)
                 {
                     sieve[i, 1] = sieve[i - 1, 1] + 1;

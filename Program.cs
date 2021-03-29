@@ -40,9 +40,12 @@ namespace Codility_Lessons
             ////countNonDivisible.solution(new int[] { 3, 1, 2, 3, 6 });
             //CountSermiPrimes countSermiPrimes = new CountSermiPrimes();
             //countSermiPrimes.solution(26, new int[] { 1, 4, 16 }, new int[] { 26, 10, 20 });
-            ChocolatesByNumbers chocolate = new ChocolatesByNumbers();
-            var result = chocolate.solution(10, 4);
-            var result1 = chocolate.solution(947853, 4453);
+            //ChocolatesByNumbers chocolate = new ChocolatesByNumbers();
+            //var result = chocolate.solution(10, 4);
+            //var result1 = chocolate.solution(947853, 4453);
+            CommonPrimeDivisors commonPrimeDivisors = new CommonPrimeDivisors();
+            var result = commonPrimeDivisors.solution(new int[] { 15, 10, 3 }, new int[] { 75, 30, 5 });
+
         }
     }
 }
