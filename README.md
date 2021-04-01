@@ -11,7 +11,8 @@ Prime and Composite Numbers,
 Sorting,
 Stacks and Queues,
 Sieve of Eratosthenes,
-Euclidean Algorithm
+Euclidean Algorithm,
+Fibonacci
 
 
 Others will be added later.
