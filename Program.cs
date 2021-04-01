@@ -1,4 +1,5 @@
 ﻿using Codility_Lessons.EuclideanAlgorithm;
+using Codility_Lessons.Fibonacci;
 using Codility_Lessons.PrimeAndCompositeNumbers;
 using Codility_Lessons.SieveOfEratosthenes;
 using System;
@@ -43,8 +44,12 @@ namespace Codility_Lessons
             //ChocolatesByNumbers chocolate = new ChocolatesByNumbers();
             //var result = chocolate.solution(10, 4);
             //var result1 = chocolate.solution(947853, 4453);
-            CommonPrimeDivisors commonPrimeDivisors = new CommonPrimeDivisors();
-            var result = commonPrimeDivisors.solution(new int[] { 15, 10, 3 }, new int[] { 75, 30, 5 });
+            //CommonPrimeDivisors commonPrimeDivisors = new CommonPrimeDivisors();
+            //var result = commonPrimeDivisors.solution(new int[] { 15, 10, 3 }, new int[] { 75, 30, 5 });
+            FibFrog fibFrog = new FibFrog();
+            //fibFrog.solution(new int[] { 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0 });
+            fibFrog.solution(new int[] { 1 });
+
 
         }
     }

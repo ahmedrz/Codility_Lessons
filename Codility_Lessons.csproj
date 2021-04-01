@@ -51,6 +51,7 @@
     <Compile Include="CountingElements\PermCheck.cs" />
     <Compile Include="EuclideanAlgorithm\ChocolatesByNumbers.cs" />
     <Compile Include="EuclideanAlgorithm\CommonPrimeDivisors.cs" />
+    <Compile Include="Fibonacci\FibFrog.cs" />
     <Compile Include="Iterations\BinaryGap.cs" />
     <Compile Include="Leader\Dominator.cs" />
     <Compile Include="Leader\EquiLeader.cs" />
