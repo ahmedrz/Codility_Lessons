@@ -46,9 +46,11 @@ namespace Codility_Lessons
             //var result1 = chocolate.solution(947853, 4453);
             //CommonPrimeDivisors commonPrimeDivisors = new CommonPrimeDivisors();
             //var result = commonPrimeDivisors.solution(new int[] { 15, 10, 3 }, new int[] { 75, 30, 5 });
-            FibFrog fibFrog = new FibFrog();
-            //fibFrog.solution(new int[] { 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0 });
-            fibFrog.solution(new int[] { 1 });
+            //FibFrog fibFrog = new FibFrog();
+            ////fibFrog.solution(new int[] { 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0 });
+            //fibFrog.solution(new int[] { 1 });
+            Ladder ladder = new Ladder();
+            var result = ladder.solution(new int[] { 4, 4, 5, 5, 1, 50000 }, new int[] { 3, 2, 4, 3, 1, 30 });
 
 
         }
